@@ -9,7 +9,7 @@ const decrBtnClick = (evt) => {
   valueCount.textContent = counterValue;
 };
 
-const incrBtnClick = () => {
+const incrBtnClick = (evt) => {
   counterValue += 1;
   valueCount.textContent = counterValue;
 };

@@ -18,13 +18,13 @@ const gallery = document.querySelector('.gallery');
 function createGallery(images) {
   const galleryItems = images.map(({ url, alt }) => `<li><img src="${url}" alt="${alt}" width="300" height="300"></li>`).join('');
   gallery.insertAdjacentHTML('beforeend', galleryItems);
-}
+};
 
 createGallery(images);
 
 
 
-// SECOND VAR
+// 2 VAR
 
 // const galleryItems = images.map(({ url, alt }) =>`<li><img src="${url}" alt="${alt}" width="300" height="300"></li>`).join('');
 

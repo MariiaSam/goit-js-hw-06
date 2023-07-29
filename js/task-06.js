@@ -11,5 +11,5 @@ function blurBorder (evt) {
     } else {
         input.classList.remove('valid');
         input.classList.add('invalid');
-    }
-} 
+    };
+};

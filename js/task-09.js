@@ -12,4 +12,4 @@ const bodyChangeColor = (evt) => {
   textColor.textContent =  body.style.backgroundColor = getRandomHexColor ();
 };
 
-buttonChangeColor.addEventListener('click', bodyChangeColor)
+buttonChangeColor.addEventListener('click', bodyChangeColor);

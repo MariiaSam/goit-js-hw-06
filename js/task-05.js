@@ -6,8 +6,8 @@ function handler (evt) {
         nameOutput.textContent = 'Anonymous';
         } else {
         nameOutput.textContent = evt.currentTarget.value;
-        }
-    }
+        };
+    };
 
 nameInput.addEventListener('input', handler);
 
