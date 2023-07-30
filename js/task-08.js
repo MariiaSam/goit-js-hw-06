@@ -6,6 +6,7 @@ const handler = (evt) => {
   const password = loginForm.password.value;
   if (!email || !password) {
     alert('input fields must be fill');
+    return;
   } else {
     console.log({ email: email, password: password });
   }
