@@ -15,12 +15,16 @@ const images = [
 
 const gallery = document.querySelector('.gallery');
 
-function createGallery(images) {
+function createGallery(images) {//огол ф-цію, яка отр масив зображень
   const galleryItems = images.map(({ url, alt }) => `<li><img src="${url}" alt="${alt}" width="300" height="300"></li>`).join('');
   gallery.insertAdjacentHTML('beforeend', galleryItems);
 }
 
-createGallery(images);
+//images.map - перебираємо масв і ств 
+// для кожного обʼєкта ств рядок ХТМЛ, які відобр в списку <li><img,  url, alt - атрибути
+
+
+createGallery(images); //виклик ф-ції, додає всі зображення на сторінку
 
 
 
